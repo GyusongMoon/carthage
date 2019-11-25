@@ -32,7 +32,7 @@
 		04ACB494238BC5C300F5CD34 = {
 			isa = PBXGroup;
 			children = (
-				04ACB4A0238BC5C300F5CD34 /* Carthage */,
+				04ACB4A0238BC5C300F5CD34 /* Sources */,
 				04ACB49F238BC5C300F5CD34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,14 +45,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04ACB4A0238BC5C300F5CD34 /* Carthage */ = {
+		04ACB4A0238BC5C300F5CD34 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				04ACB4A1238BC5C300F5CD34 /* Carthage.h */,
 				04ACB4A2238BC5C300F5CD34 /* Info.plist */,
 				04ACB4A9238BC6E500F5CD34 /* PlanetWalletKit.swift */,
 			);
-			path = Carthage;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
