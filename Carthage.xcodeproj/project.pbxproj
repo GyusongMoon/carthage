@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04ACB4A3238BC5C300F5CD34 /* Carthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ACB4A1238BC5C300F5CD34 /* Carthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04ACB4AA238BC6E500F5CD34 /* PlanetWalletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACB4A9238BC6E500F5CD34 /* PlanetWalletKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04ACB49E238BC5C300F5CD34 /* Carthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Carthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ACB4A1238BC5C300F5CD34 /* Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carthage.h; sourceTree = "<group>"; };
 		04ACB4A2238BC5C300F5CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACB4A9238BC6E500F5CD34 /* PlanetWalletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetWalletKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				04ACB4A1238BC5C300F5CD34 /* Carthage.h */,
 				04ACB4A2238BC5C300F5CD34 /* Info.plist */,
+				04ACB4A9238BC6E500F5CD34 /* PlanetWalletKit.swift */,
 			);
 			path = Carthage;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					04ACB49D238BC5C300F5CD34 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ACB4AA238BC6E500F5CD34 /* PlanetWalletKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		04ACB4A7238BC5C300F5CD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.grabity.Carthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		04ACB4A8238BC5C300F5CD34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
